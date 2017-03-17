@@ -1,0 +1,46 @@
+
+/*
+p {
+    line-height: 10px;
+}
+*/
+.container {
+    width: 1000px;
+    height: 600px;
+}
+.container a img {
+    width: 1000px;
+    height: 600px;
+}
+.container img {
+    border: 0px;
+    margin: 0px;
+}
+.td_f a img {
+    padding: 0px;
+    margin: 0px;
+}
+.num {
+    position: absolute;
+    width: 105px;
+    float: none;
+    bottom: -10px;
+	left: 415px;
+}
+.num li {
+    text-align: center;
+    line-height: 15px;
+    list-style-type: none;
+    margin: 1px;
+    width: 15px;
+    height: 15px;
+    background: url(../img/circle.png) no-repeat left center;
+    cursor: pointer;
+}
+.num li.on {
+    line-height: 15px;
+    width: 15px;
+    height: 15px;
+    background: url(../img/circle.png) no-repeat right center; /*点击后小圆圈的显示*/
+    color: #ffffff;
+}
